@@ -1,0 +1,143 @@
+@media only screen and (max-width: 750px) {
+
+
+    /*======================header section========================*/
+    .nav_responsive {
+
+        height: 650px;
+
+
+    }
+
+    .nav_details {
+
+        display: none;
+    }
+
+    .header_content h1 {
+
+        font-size: x-large;
+    }
+
+    .header_content .social {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .social span .icon {
+
+        font-size: 25px;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        padding-left: 3px;
+        transition: 0.4s ease-in-out;
+
+    }
+
+    .header_left_content img {
+        width: 150px;
+        height: 150px;
+        margin: 60px 0px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .header_content {
+
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    /* ======================  A B O U T    S E C T I O N   ================================= */
+    .about_container {
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about_left_content {
+
+        width: 100%;
+    }
+
+    .about_right_content {
+        width: 100%;
+        margin-top: 20px
+    }
+
+    .about h1 {
+        width: 50%;
+        text-align: center;
+
+
+    }
+
+    /* ============================== C O N T A C T   S E C T I O N ===================================== */
+
+    body {
+
+        overflow-x: hidden;
+    }
+
+    .contact_container {
+
+        flex-direction: column;
+    }
+
+    .contact_left_content {
+
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .contact_right_content {
+
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    .social_link {
+        width: 100%;
+        display: flex;
+        margin: 30px 0px;
+        justify-content: center
+    }
+
+    .social_link .fab {
+
+        width: 50px;
+        height: 50px;
+        padding-left: 3px;
+        margin-right: 25px;
+
+    }
+
+    .tittle{
+
+        width: 80%;
+    }
+
+    .long_tittle{
+
+        font-size: xx-large;
+    }
+    .main_tittle{
+
+        font-size: x-large;
+        letter-spacing: 5px;
+        margin-top: 2px;
+        opacity: 0.7;
+       
+    }
+
+    /* ================ footer ========================= */
+
+    
+}
